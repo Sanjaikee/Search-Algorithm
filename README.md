@@ -29,8 +29,8 @@ and then print to find the element whether the element is found or not.
 i)	#Use a linear search method to match the item in a list.
 ```
 Program for linear search method to match the item in a list
-Developed by: Chandana Yendluri
-RegisterNumber: 23011258
+Developed by: Sanjai S
+RegisterNumber: 23003393
 '''
 def linearsearch(array,n,k):
     for i in range (0,n):
@@ -52,14 +52,14 @@ else:
 
 ```
 ## input and output:
-![image](https://github.com/Tanessha/Search-Algorithm/assets/140876194/d1ea23a1-449c-47e1-83c4-a48fdf254bac)
+![image](https://github.com/Sanjaikee/Search-Algorithm/assets/150231888/6f541465-7006-4d3a-bfa7-de70748f7838)
 
 
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
 Program to find the element in a list using Binary Search(Iterative Method)..
-Developed by:Chandana Yendluri
-RegisterNumber: 23011258
+Developed by:Sanjai S
+RegisterNumber: 23003393
 '''
 def binarysearchIter(array, k, low, high):
     while low<=high:
@@ -90,8 +90,8 @@ iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
 ''' 
 Program to find the element in a list using Binary Search (recursive Method).
-Developed by: Chandana Yendluri
-RegisterNumber:23011258 
+Developed by: Sanjai S
+RegisterNumber:23003393 
 '''
 def BinarySearch(arr, k, low, high):
     if high>=low:
